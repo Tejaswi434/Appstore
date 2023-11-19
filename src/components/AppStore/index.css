@@ -1,0 +1,20 @@
+/* Write your CSS here */
+
+.rowing {
+  display: flex;
+  flex-direction: row;
+  margin-left: 590px;
+}
+.main {
+  text-align: center;
+  margin: 40px;
+  background-color: #ace0f9;
+  height: 100vh;
+}
+
+.rowingimages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.gap {
+  margin-right: 10px;
+  list-style-type: none;
+}
+.eraseborder {
+  background-color: transparent;
+  cursor: pointer;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 3px solid black;
+}
+.tabButton {
+  border-bottom: 3px solid yellow;
+}
