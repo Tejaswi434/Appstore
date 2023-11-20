@@ -6,10 +6,8 @@ const AppItem = props => {
   const {appId, appName, imageUrl, category} = each
   return (
     <li className="listing">
-      <div className="paddingImage">
-        <img src={imageUrl} alt={category} className="sizingimage" />
-        <p>{appName}</p>
-      </div>
+      <img src={imageUrl} className="sizingimage padding" alt="appName" />
+      <p>{appName}</p>
     </li>
   )
 }

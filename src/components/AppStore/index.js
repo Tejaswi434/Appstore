@@ -332,11 +332,18 @@ class AppStore extends Component {
     return (
       <div className="main">
         <h1>App Store</h1>
-        <input
-          type="search"
-          placeholder="search"
-          onChange={this.GettingParticular}
-        />
+        <div>
+          <input
+            type="search"
+            placeholder="Search"
+            onChange={this.GettingParticular}
+          />
+          <img
+            src="https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png"
+            className="mirror"
+            alt="search icon"
+          />
+        </div>
         <ul className="rowing">
           {tabsList.map(each => (
             <TabItem

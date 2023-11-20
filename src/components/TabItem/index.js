@@ -11,15 +11,13 @@ const TabItem = props => {
   const cascade = isActive ? 'tabButton' : ''
   return (
     <li className="gap">
-      <div className="individualbox">
-        <button
-          type="button"
-          className={`eraseborder ${cascade}`}
-          onClick={ChangePortal}
-        >
-          <p>{displayText}</p>
-        </button>
-      </div>
+      <button
+        type="button"
+        className={`eraseborder ${isActive}`}
+        onClick={ChangePortal}
+      >
+        <p>{displayText}</p>
+      </button>
     </li>
   )
 }

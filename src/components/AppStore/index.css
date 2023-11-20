@@ -18,3 +18,9 @@
   flex-wrap: wrap;
   margin: 20px;
 }
+.mirror {
+  height: 19px;
+  width: 19px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
